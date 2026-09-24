@@ -1,0 +1,8 @@
+{
+  "name": "complaint-management-system",
+  "private": true,
+  "scripts": {
+    "dev": "python -c \"import django\" 2>/dev/null || python -m pip install --break-system-packages -r requirements.txt; python manage.py migrate --noinput; python manage.py runserver 0.0.0.0:3000",
+    "start": "python -c \"import django\" 2>/dev/null || python -m pip install --break-system-packages -r requirements.txt; python manage.py migrate --noinput; python manage.py runserver 0.0.0.0:3000"
+  }
+}
